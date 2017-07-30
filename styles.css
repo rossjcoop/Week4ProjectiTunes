@@ -1,0 +1,96 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+
+
+
+
+body {
+  background-color: #60d9f1;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+	margin: auto;
+	padding: 5px;
+}
+
+.container {
+	width: 1000px;
+	height: 100%;
+	background-color: black;
+	margin: 0 auto;
+}
+
+
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: helvetica, arial, serif;
+}
+
+
+.thumbnail {
+	margin: auto;
+}
+
+
+p {
+	text-align: center;
+	font-family: helvetica, arial, serif;
+}
+
+#player {
+	width: 1000px;
+	height: 100px;
+	padding: 15px;
+	text-align: center;
+
+}
+
+audio {
+	width: 600px;
+}
+
+#search {
+	width: 1000px;
+	height: 100px;
+	text-align: center;
+}
+
+
+
+#searchbox {
+	width: 500px;
+	height: 30px;
+	font-size: 18px;
+}
+
+#submit {
+	background-color: #60d9f1;
+	width: 100px;
+	height: 30px;
+	color: white;
+	font-size: 18px;
+}
+
+
+#results {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+#resultcontainer {
+	width: 250px;
+	height: 350px;
+	background-color: white;
+	border: 2px solid black;
+	padding: 15px;
+	margin: 0 auto;
+
+
+}
